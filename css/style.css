@@ -1,0 +1,134 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+.fix { overflow: hidden }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100%; background-image:url(../image/body_bg.png); background-repeat:repeat;  margin: 0 auto; padding: 0; font-family: verdana; width: 100%;}
+
+a {
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #333;
+}
+a:hover { text-decoration: none }
+.padding{padding: 0 30px;}
+.footer-top-margin{margin-top: 30px;}
+/*end base css*/
+.top_area{width:100%; height: 45px; background-color:#212325; line-height: 45px; color:white; }
+.contact span{color: #485766;}
+.contact ul li{}
+.contact ul li a{color: #485766; border-right: 1px solid #485766;padding-right: 10px;}
+.contact ul li:last-child a{border: none;}
+.contact ul li a:hover{color: #6A87A3;}
+.socials{ overflow: hidden;}
+.socials ul{margin: 0; padding: 0;}
+.search{background-color: #0F1010; border-radius: 27px; color: white; height: 30px; margin-left: 6px;}
+.search_box a{color: white; left: -28px; position: relative; top: 1px;}
+/*start header*/
+.header{width: 100%;height: 70px; background-color: transparent; overflow: hidden; line-height: 70px; margin-top: 25px;}
+.main-menu{margin-top: -10px; left: 135px;}
+.main-menu ul{margin: 0; padding: 0;}
+.main-menu ul li{display: inline-block; list-style: none;}
+.main-menu ul li a{color: #7A8090;font-size: 20px; font-weight: 600; margin-right: 25px; padding: 7px 10px;}
+.main-menu ul li a:hover{ background-color:  #16191f; border-radius: 3px;  color: white;}
+/*end header*/
+/*start main_content*/
+.main_content{background-color: white; border: 25px solid #232631; min-height: 1166px; overflow: hidden;}
+.heading {margin-top: 15px;}
+.heading h2{display: inline-block; margin-bottom: 0; position: relative;top: 7px; margin-bottom: 10px;}
+hr{margin-top: 20px; border-bottom: 2px dotted #84A1AF;}
+.description { margin-top: 20px;}
+.banner img{border: 10px solid #eef0f5;}
+.special_description { background-color: #eef0f5; border: 1px solid #84a1af; padding: 12px;}
+.special_description > p {  font-weight: 600;}
+.title { background-color: #9097a9;}
+.title > img {  left: 11px; position: relative;}
+.title > h2 { display: inline-block;  left: 13px; position: relative; top: 8px; color: white;}
+.title_description { background-color: #eef0f5; height: 252px;}
+.title_description > img { left: 66px; position: relative; top: 24px;}
+.title_description > p { left: 5px; margin-bottom: 0; padding: 32px; position: relative; top: 14px;}
+.title_description2 { background-color: #eef0f5; padding: 12px;}
+.title_description2 > ul { margin: 0; padding: 0;}
+.title_description2 li { list-style: outside none none;}
+.title_description2 a { background-color: #dce0e9; color: #747c93; display: block; margin-top: 2px; padding: 12px; font-weight: 600;}
+.title_description2 a:hover { background-color: #BEC2CA; color: #444D68;}
+.title_description2 #angel1{position: relative;left: 190px;}
+.title_description2 #angel2{position: relative;left:233px;}
+.title_description2 #angel3{position: relative;left:203px;}
+.title_description2 #angel4{position: relative;left:222px;}
+.title_description2 #angel5{position: relative;left:219px;}
+
+.title_description3,.title_description4,.title_description5 { background-color: #eef0f5; padding: 16px;}
+.title_description3 > h2,.title_description4 > h2 { color: #747c93; font-family: verdana; font-size: 14px; font-weight: bold;}
+.title_description3 > h2 >#number_1{position: relative; left: 200px;}
+.title_description3 > h2 >#number_2{position: relative; left: 200px;}
+.title_description3 > h2 >#number_3{position: relative; left: 175px;}
+.title_description3 > h2 >#number_4{position: relative; left: 210px;}
+.title_description3 > h2 >#number_5{position: relative; left: 170px;}
+.title_description3 > h2 >#number_6{position: relative; left: 200px;}
+.title_description4 > h2 >#number_1{position: relative; left: 220px;}
+.title_description4 > h2 >#number_2{position: relative; left: 196px;}
+.social_icon { padding-left: 5px;}
+.social_icon > a {  margin-left: 24px;}
+/*.footer-top_area{background-color: #0F131F; min-height: 300px; width: 100%; margin-top: 40px;}
+.heading_title{margin-top: 40px; margin-top: 40px; margin-bottom: 30px;}
+.heading_title > h2 { color: #8c94ac;}
+.heading_description {}
+
+.heading_description li { list-style: outside none none;}
+.heading_description a { color: #606574; display: inline-block; margin-top: 10px;}*/
+.footer-top_area{background-color: #0F131F; width:100%; height:auto; margin-top:40px;}
+.heading_title > h2 { color: #8c94ac;}
+.heading_description {  margin-top: 30px;}
+.heading_description > ul { margin: 0; padding: 0;}
+.heading_description li { list-style: outside none none;}
+.heading_description a { color: #606574; display: inline-block; margin-top: 10px;}
+.first_gallery>img,.second_gallery>img{border: 8px solid #191f2f; display: inline-block;margin: 28px 5px 5px;}
+.heading_title > img { left: 305px; position: relative; top: -36px;}
+.twitter_description { background-color: #191f2f; border-radius: 20px; padding: 10px;}
+.twitter_description #email,#link > a {color: #b8e2f6;}
+.twitter_description > p { color: #417893;}
+.twitter_description::after {
+ border-bottom: 25px solid #191f2f;
+border-left: 0 solid transparent;
+border-right: 24px solid transparent;
+content: "";
+left: 335px;
+position: absolute;
+top: 54px;
+}
+.footer { background-color: #040507; width: 100%; height: 45px; line-height: 45px; overflow: hidden;}
+.left_content > p { color: #6a7796;}
+.right_content > ul { margin: 0; padding: 0;}
+.right_content li { display: inline-block; list-style: outside none none; padding-left: 5px;}
+.right_content a { border-right: 1px solid;color: #6a7796;padding-right: 10px;}
+.right_content li:last-child a{border: none;}
+.slicknav_menu {
+	display:none;
+}
