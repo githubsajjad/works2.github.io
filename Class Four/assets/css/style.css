@@ -1,0 +1,103 @@
+/* Base Css */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, input:focus, textarea:focus, button:focus {outline: 0 solid}
+a:hover{text-decoration: none}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin: 0  0 15px;
+	font-weight: 700;
+}
+body{
+	background-color: #f5f5f5;
+	font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+.section-padding{
+	padding: 80px 0;
+}
+.section-title{
+	margin-bottom: 50px;
+}
+.section-title h2{
+	text-transform: uppercase;
+	color: #4c8bf5;
+	font-size: 35px;
+}
+.section-title-sep{
+	position: relative;
+	height: 2px;
+	background: #4c8bf5;
+	width: 300px;
+	margin: 0 auto 35px;
+}
+.section-title-sep:after{
+	position: absolute;
+	left: 50%;
+	bottom: -2px;
+	width: 70px;
+	height: 5px;
+	background: #4c8bf5;
+	content: "";
+	margin-left: -35px;
+	z-index: 1;
+}
+.single-team-box{
+	background: #fff;
+	padding: 30px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 1.6;	
+}
+.single-team-box img{
+	max-width: 200px;
+    max-height: 200px;
+	display: block;
+	margin: 0 auto 30px;
+	border-radius: 50%;
+}
+.single-team-box h4{
+	margin-top: 20px;
+	color: #4c8bf5;
+	margin-bottom: 0;
+}
+.single-team-box h4 span{
+	display: block;
+	color: #333;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 9px;
+}
+.team-desc span{
+	color: #4c8bf5;
+	font-size: 120%;
+}
+.team-carousel .owl-nav div{
+	position: absolute;
+	height: 35px;
+	width: 35px;
+	background: #4c8bf5;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	line-height: 32px;
+	border-radius: 50%;
+	left: -70px;
+	top: 50%;
+	margin-top: -17.5px;
+}
+.team-carousel .owl-nav div.owl-next{
+	left: initial;
+	right: -70px;
+}
+.service-box-bg-1{background-image:url(../img/bg-1.jpeg);}
+.service-box-bg-2{background-image:url(../img/bg-2.jpeg);}
+.service-box-bg-3{background-image:url(../img/bg-3.jpeg);}
+.service-box-bg-4{background-image:url(../img/bg-4.jpeg);}
